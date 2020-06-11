@@ -6,7 +6,7 @@ from datetime import datetime
 from email.message import EmailMessage
 
 # Load data
-df = pd.read_csv("Data.csv", sep=";")
+df = pd.read_csv("Data.csv")
 
 # Access to gmail sender account
 password = "yourgmailpassword"
